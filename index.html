@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guessing number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <center><h1>guess the number</h1></center>
+        <br>
+        <br>
+            <form action="">
+               <center><h2>select a number from 1 to 100</h2></center>
+                <br>
+                <br>
+                <label class="l" for="">enter the number</label>
+                <input id="n1" type="text"><br>
+                <center><h2 id="msg"></h2></center>
+                <center><h3>No of tries</h3></center>
+                <center><label id="tries" for=""></label></center>
+                <br>
+                <br>
+                <div class="b">
+                    <input class="bu" type="button" value="check" onclick="findnumber()">
+                    <input class="bu" type="submit" value="Reset">
+                </div>
+                </form>
+    </div>
+    <script src="./guess.js"></script>
+</body>
+</html>
