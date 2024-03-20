@@ -30,3 +30,6 @@ body{
     height: 50px;
     width: 100px;
 }
+label[id="tries"]{
+    margin-left: 350px;
+}
